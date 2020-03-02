@@ -8,7 +8,8 @@ setuptools.setup(
         'pyjwt',
         'requests',
         'cryptography',
-        'kazoo'
+        'kazoo',
+        'PyYAML==5.3'
     ],
     entry_points={
         'console_scripts': [
