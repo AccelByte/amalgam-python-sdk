@@ -10,7 +10,7 @@ pytest = "*"
 pyjwt = "*"
 requests = "*"
 cryptography = "*"
-confluent-kafka = "*"
+kazoo = "*"
 
 [requires]
 python_version = "3.6"
