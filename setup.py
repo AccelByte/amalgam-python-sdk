@@ -5,6 +5,10 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     install_requires=[
         'Click',
+        'pyjwt',
+        'requests',
+        'cryptography',
+        'kazoo'
     ],
     entry_points={
         'console_scripts': [
