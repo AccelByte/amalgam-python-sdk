@@ -9,7 +9,7 @@ setuptools.setup(
         'requests',
         'cryptography',
         'kazoo',
-        'PyYAML==5.3'
+        'PyYAML==5.4'
     ],
     entry_points={
         'console_scripts': [
